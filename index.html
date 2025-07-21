@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="css/style.css?v=1">
+    <link rel="stylesheet" href="css/utility.css?v=1">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="left">
+            <div class="links">
+                <div class="space-between">
+                    <img class="logo invert cursor" src="img/logo.svg" alt="">
+                    <img src="img/close.svg" class="invert cursor" id="closeBtn">
+                </div>
+
+                <div class="sub_links">
+                    <li class="Home_Search cursor"><img class="home invert" src="img/home.svg" alt="">Home</li>
+                    <li class="Home_Search cursor"><img class="search invert" src="img/search.svg" alt="">Search
+                    </li>
+                </div>
+            </div>
+            <div class="list">
+
+                <div class="list2">
+                    <div class="library">
+                        <img class="library-logo invert" src="img/playlist.svg" alt="">
+                        Your Library
+                    </div>
+                    <div class="song-lists">
+                        <ul class="songs-container">
+                            <!-- SONGS LIST -->
+                            <!-- SONGS LIST -->
+
+                            <!-- `  <li class="song_list cursor" data-folder="${folder + SongName}" >
+                                <img class="invert " src="img/music.svg" alt="">
+                                <div class="list_name">
+                                    <p class="song_name">${SongName}</p>
+                                    <p class="author_name">Author Name</p>
+                                </div>
+                                <div class="play_now">
+                                      <span>Play Now</span>
+                                    <img class="invert" src="img/play.svg" alt="">
+                                </div>
+                            </li>`; -->
+
+                            <!-- SONGS LIST -->
+                            <!-- SONGS LIST -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="icons flex">
+                    <img class="invert cursor" id="toggleBtn" src="img/hamburger.svg" alt="">
+                    <div class="cursor">&lt;</div>
+                    <div class="cursor">&gt;</div>
+                </div>
+                <div class="Buttons">
+
+                    <button class="SignUp">Sign Up</button>
+                    <button class="LogIn">Log In</button>
+                </div>
+            </div>
+            <div class="SpotifyPlaylist">
+                <span>Spotify Playlists</span>
+                <div class="cardContainer">
+                    <!-- CARD LIST -->
+                    <!-- CARD LIST -->
+
+                    <!-- `<div class="card" data-folder="${songPath}" >
+                        <img src="${songPath + "cover.jpg"}" alt="">
+                        <div class="text">
+                          <p class="P_name">${info_json.title}</p>
+                          <p class="P_description">${info_json.description}</p>
+                        </div>
+                      </div>` -->
+
+                    <!-- CARD LIST -->
+                    <!-- CARD LIST -->
+                </div>
+            </div>
+            <div class="controler">
+                <div class="upper ">
+                    <span>Undefined</span>
+                    <div class="logos">
+                        <img class="invert logo cursor prev" src="img/prevsong.svg" alt="">
+                        <img class="invert logo cursor play_pause" src="img/play.svg" alt="">
+                        <img class="invert logo cursor next" src="img/nextsong.svg" alt="">
+                    </div>
+                    <div class="time">
+                        <span>00:00 / 00:00</span>
+                        <div class="volume ">
+                            <img class="invert cursor" src="img/volume.svg" alt="">
+                            <input class="volume_range cursor" type="range" min="0" max="100" value="10" class="slider">
+                        </div>
+                    </div>
+                </div>
+                <div class="lower">
+                    <input class="time_slider cursor" type="range" min="0" max="100" value="10" class="slider">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js?v=1"></script>
+
+</body>
+
+</html>

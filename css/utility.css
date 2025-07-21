@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+
+.cursor {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex2 {
+  display: flex;
+  justify-content: center;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+ul {
+  list-style-type: none;
+  /* width: 10px; */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  background-color: #9b2727;
+}
+
+/* Apply to whole website */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Scrollbar Track */
+body::-webkit-scrollbar-track {
+  background: #121212; /* Dark background */
+}
+
+/* Scrollbar Thumb */
+body::-webkit-scrollbar-thumb {
+  background-color: #444; /* Thumb color */
+  border-radius: 10px;
+  border: 2px solid #121212; /* Matches track for inset effect */
+}
+
+/* For Firefox */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #444 #121212;
+}
