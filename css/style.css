@@ -74,7 +74,7 @@
 
 .list {
   flex: 1;
-  padding: 15px 10px;
+  padding: 15px 10px 10px 10px ;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -137,7 +137,7 @@
 
 .footer {
   display: flex;
-  gap: 0px 20px;
+  gap: 0px 10px;
   flex-wrap: wrap;
 }
 
@@ -328,6 +328,9 @@
 .upper {
   display: flex;
   align-items: center;
+  padding: 5px;
+
+  /* gap : 0px 10px; */
 
   .time {
     display: flex;
@@ -339,6 +342,7 @@
 
   .time > span,
   > span {
+    /* background-color: #dc9700; */
     text-wrap: nowrap;
     text-align: center;
     font-size: 15px;
@@ -433,7 +437,9 @@
   #closeBtn {
     display: inline-block;
   }
-
+  .controler {
+    bottom: 5px;
+  }
   .main {
     position: relative;
     height: 100vh;
@@ -443,7 +449,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 150vh;
+    height: 94vh;
     padding: 10px;
     width: min(90vw, 300px);
     transform: translateX(-100%);
@@ -465,6 +471,23 @@
 
   .upper {
     height: 120px;
+
+    .time > span {
+      transform: translateX(-7px) translateY(5px);
+    }
+    > span {
+      transform: translateX(-9px);
+
+      padding: 0px 0px 10px 0px;
+    }
+  }
+
+  .volume {
+    transform: translateX(-10px);
+
+    input[type="range"] {
+      width: 110px;
+    }
   }
 
   #closeBtn {
@@ -475,4 +498,6 @@
   .play_now {
     display: inline-block;
   }
+
+
 }
