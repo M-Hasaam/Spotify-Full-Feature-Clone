@@ -1,26 +1,40 @@
 # 🎵 Streamify – Full-Featured Spotify Clone
 
-> A complete music streaming app with real playback, dynamic UI, responsive layout, and modern controls — just like Spotify.
+> A complete music streaming app with real playback, dynamic UI, and responsive layout.
 
 ---
 
 ## 🌐 Live Demo
 
-> Click here to try it live:  
-🔗 [https://m-hasaam.github.io/Spotify-Full-Feature-Clone/](https://m-hasaam.github.io/Spotify-Full-Feature-Clone/)
-
-<iframe src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/" width="100%" height="500" style="border:none; border-radius:12px;" allowfullscreen></iframe>
+🔗 [Live Website](https://m-hasaam.github.io/Spotify-Full-Feature-Clone)
 
 ---
 
-## 🎥 Demo Video
+## 🎥 Preview Video
 
-Watch the app in action:
+🔗 [Watch Preview Video](https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/preview.mkv)
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+<!-- This is a comment and will not be shown in the rendered Markdown 
 
-> Replace `YOUR_VIDEO_ID` above with your actual YouTube demo link.
+Or upload it to YouTube and link like this:
 
+[![Watch Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+-->
+---
+
+<h2>📸 Responsive Design Screenshots</h2>
+
+<!-- Desktop and Tablet -->
+<div align="center">
+  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Desktop.png" alt="Desktop View" width="45%" style="margin: 10px;" />
+  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Tab.png" alt="Tablet View" width="45%" style="margin: 10px;" />
+</div>
+
+<!-- Mobile Views -->
+<div align="center">
+  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Mobile.png" alt="Mobile View 1" width="30%" style="margin: 10px;" />
+  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Mobile2.png" alt="Mobile View 2" width="30%" style="margin: 10px;" />
+</div>
 ---
 
 ## ✨ Features
