@@ -1,33 +1,34 @@
 const fs = require("fs");
 const path = require("path");
 
-const basePath = __dirname; // current directory: /songs
-const folders = fs.readdirSync(basePath, { withFileTypes: true });
+const songsDir = __dirname;
+const output = [];
 
-const index = [];
-
-folders.forEach((entry) => {
-  if (entry.isDirectory()) {
-    const folderPath = path.join(basePath, entry.name);
+fs.readdirSync(songsDir, { withFileTypes: true }).forEach((dirent) => {
+  if (dirent.isDirectory()) {
+    const folderName = dirent.name;
+    const folderPath = path.join(songsDir, folderName);
     const infoPath = path.join(folderPath, "info.json");
     const coverPath = path.join(folderPath, "cover.jpg");
 
     if (fs.existsSync(infoPath) && fs.existsSync(coverPath)) {
-      const infoData = JSON.parse(fs.readFileSync(infoPath, "utf8"));
+      const info = JSON.parse(fs.readFileSync(infoPath, "utf-8"));
+      const files = fs.readdirSync(folderPath);
 
-      index.push({
-        folder: entry.name,
-        title: infoData.title || entry.name,
-        description: infoData.description || "",
-        cover: "cover.jpg"
+      const mp3Files = files
+        .filter((f) => f.endsWith(".mp3"))
+        .map((f) => encodeURIComponent(f)); // Encode to be URL-safe
+
+      output.push({
+        folder: folderName,
+        title: info.title,
+        description: info.description,
+        cover: "cover.jpg",
+        songs: mp3Files,
       });
-    } else {
-      console.warn(`Skipping ${entry.name}: Missing info.json or cover.jpg`);
     }
   }
 });
 
-const outputPath = path.join(basePath, "index.json");
-fs.writeFileSync(outputPath, JSON.stringify(index, null, 2), "utf8");
-
-console.log("✅ songs/index.json generated successfully.");
+fs.writeFileSync(path.join(songsDir, "index.json"), JSON.stringify(output, null, 2));
+console.log("✅ index.json generated successfully.");
