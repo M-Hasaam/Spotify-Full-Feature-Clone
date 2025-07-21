@@ -3,66 +3,126 @@
     "folder": "Angry_(mood)",
     "title": "Angry Mood",
     "description": "Calm your Anger",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Aditya%20Rikhari%20-%20SAMJHO%20NA%20(%20NASAMAJH%20).mp3",
+      "Afusic%20-%20Pal%20Pal%20(Official%20Music%20Video)%20Prod.%20%40AliSoomroMusic.mp3",
+      "Samjho%20Na%20X%20Wishes%20-%20Mashup%20%20Aditya%20Rikhari%20%20Hasan%20Raheem%20%20DJ%20Sumit%20Rajwanshi.mp3"
+    ]
   },
   {
     "folder": "Bright_(mood)",
     "title": "Bright Songs",
     "description": "Bright Songs for you",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Aditya%20Rikhari%20-%20Paaro%20(Official%20Video).mp3",
+      "Aditya%20Rikhari%20-%20SAMJHO%20NA%20(%20NASAMAJH%20).mp3",
+      "Afusic%20-%20Pal%20Pal%20(Official%20Music%20Video)%20Prod.%20%40AliSoomroMusic.mp3",
+      "Anuv%20Jain%20-%20AFSOS%20ft.%20AP%20Dhillon%20(Official%20Visualizer).mp3",
+      "Finding%20Her%20(Official%20Video)%20_%20Kushagra%20%20Vanshika%20Kashyap%20%20Bharat%20%20UR%20Debut.mp3",
+      "HASEEN%20-%20TALWIINDER%2C%20NDS%2C%20RIPPY%20(Official%20Visualizer).mp3",
+      "Jhol%20%20Coke%20Studio%20Pakistan%20%20Season%2015%20%20Maanu%20x%20Annural%20Khalid.mp3",
+      "Kaifi%20Khalil%20-%20Kahani%20Suno%202.0%20%5BOfficial%20Music%20Video%5D.mp3",
+      "Sahiba%20(Official%20Music%20Video)%20_%20Aditya%20Rikhari%2C%20Ankita%20Chhetri%20%20T-Series.mp3",
+      "Samjho%20Na%20X%20Wishes%20-%20Mashup%20%20Aditya%20Rikhari%20%20Hasan%20Raheem%20%20DJ%20Sumit%20Rajwanshi.mp3"
+    ]
   },
   {
     "folder": "Chill_(mood)",
     "title": "Just Chill",
     "description": "Yes, Just Chill",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Finding%20Her%20(Official%20Video)%20_%20Kushagra%20%20Vanshika%20Kashyap%20%20Bharat%20%20UR%20Debut.mp3",
+      "HASEEN%20-%20TALWIINDER%2C%20NDS%2C%20RIPPY%20(Official%20Visualizer).mp3",
+      "Samjho%20Na%20X%20Wishes%20-%20Mashup%20%20Aditya%20Rikhari%20%20Hasan%20Raheem%20%20DJ%20Sumit%20Rajwanshi.mp3"
+    ]
   },
   {
     "folder": "cs",
     "title": "Copyright Songs",
     "description": "Cover Songs for you",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Aditya%20Rikhari%20-%20Paaro%20(Official%20Video).mp3",
+      "Afusic%20-%20Pal%20Pal%20(Official%20Music%20Video)%20Prod.%20%40AliSoomroMusic.mp3",
+      "Sahiba%20(Official%20Music%20Video)%20_%20Aditya%20Rikhari%2C%20Ankita%20Chhetri%20%20T-Series.mp3"
+    ]
   },
   {
     "folder": "Dark_(mood)",
     "title": "Dark Horse",
     "description": "Dark Songs for you",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Aditya%20Rikhari%20-%20Paaro%20(Official%20Video).mp3",
+      "Aditya%20Rikhari%20-%20SAMJHO%20NA%20(%20NASAMAJH%20).mp3",
+      "Samjho%20Na%20X%20Wishes%20-%20Mashup%20%20Aditya%20Rikhari%20%20Hasan%20Raheem%20%20DJ%20Sumit%20Rajwanshi.mp3"
+    ]
   },
   {
     "folder": "Diljit",
     "title": "Diljit Dosanjh",
     "description": "Diljit Dosanjh hits",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Afusic%20-%20Pal%20Pal%20(Official%20Music%20Video)%20Prod.%20%40AliSoomroMusic.mp3",
+      "Anuv%20Jain%20-%20AFSOS%20ft.%20AP%20Dhillon%20(Official%20Visualizer).mp3",
+      "Finding%20Her%20(Official%20Video)%20_%20Kushagra%20%20Vanshika%20Kashyap%20%20Bharat%20%20UR%20Debut.mp3"
+    ]
   },
   {
     "folder": "Funky_(mood)",
     "title": "Go Funky",
     "description": "Lets go Funky",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "HASEEN%20-%20TALWIINDER%2C%20NDS%2C%20RIPPY%20(Official%20Visualizer).mp3",
+      "Jhol%20%20Coke%20Studio%20Pakistan%20%20Season%2015%20%20Maanu%20x%20Annural%20Khalid.mp3",
+      "Sahiba%20(Official%20Music%20Video)%20_%20Aditya%20Rikhari%2C%20Ankita%20Chhetri%20%20T-Series.mp3"
+    ]
   },
   {
     "folder": "karan aujla",
     "title": "Karan Aujla",
     "description": "Karan Aujla for you",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Finding%20Her%20(Official%20Video)%20_%20Kushagra%20%20Vanshika%20Kashyap%20%20Bharat%20%20UR%20Debut.mp3",
+      "Kaifi%20Khalil%20-%20Kahani%20Suno%202.0%20%5BOfficial%20Music%20Video%5D.mp3",
+      "Sahiba%20(Official%20Music%20Video)%20_%20Aditya%20Rikhari%2C%20Ankita%20Chhetri%20%20T-Series.mp3"
+    ]
   },
   {
     "folder": "Love_(mood)",
     "title": "I Love You",
     "description": "Love is in the air",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Anuv%20Jain%20-%20AFSOS%20ft.%20AP%20Dhillon%20(Official%20Visualizer).mp3",
+      "Samjho%20Na%20X%20Wishes%20-%20Mashup%20%20Aditya%20Rikhari%20%20Hasan%20Raheem%20%20DJ%20Sumit%20Rajwanshi.mp3"
+    ]
   },
   {
     "folder": "ncs",
     "title": "Sleep Songs",
     "description": "Songs for you",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Afusic%20-%20Pal%20Pal%20(Official%20Music%20Video)%20Prod.%20%40AliSoomroMusic.mp3",
+      "HASEEN%20-%20TALWIINDER%2C%20NDS%2C%20RIPPY%20(Official%20Visualizer).mp3"
+    ]
   },
   {
     "folder": "Uplifting_(mood)",
     "title": "Get up",
     "description": "You can do it!",
-    "cover": "cover.jpg"
+    "cover": "cover.jpg",
+    "songs": [
+      "Aditya%20Rikhari%20-%20SAMJHO%20NA%20(%20NASAMAJH%20).mp3",
+      "Jhol%20%20Coke%20Studio%20Pakistan%20%20Season%2015%20%20Maanu%20x%20Annural%20Khalid.mp3",
+      "Sahiba%20(Official%20Music%20Video)%20_%20Aditya%20Rikhari%2C%20Ankita%20Chhetri%20%20T-Series.mp3"
+    ]
   }
 ]
