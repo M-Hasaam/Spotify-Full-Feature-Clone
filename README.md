@@ -1,17 +1,15 @@
 # 🎵 Streamify – Full-Featured Spotify Clone
 
-
 > A complete music streaming app with real playback, dynamic UI, responsive layout, and modern controls — just like Spotify.
-
 
 ---
 
 ## 🌐 Live Demo
 
 > Click here to try it live:  
-🔗 [https://your-hosted-app-link.com](https://your-hosted-app-link.com)
+🔗 [https://m-hasaam.github.io/Spotify-Full-Feature-Clone/](https://m-hasaam.github.io/Spotify-Full-Feature-Clone/)
 
-<iframe src="https://your-hosted-app-link.com" width="100%" height="500" style="border:none; border-radius:12px;" allowfullscreen></iframe>
+<iframe src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/" width="100%" height="500" style="border:none; border-radius:12px;" allowfullscreen></iframe>
 
 ---
 
@@ -21,29 +19,30 @@ Watch the app in action:
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
 
+> Replace `YOUR_VIDEO_ID` above with your actual YouTube demo link.
+
 ---
 
 ## ✨ Features
 
 - 🎧 Play, pause, skip, and loop songs  
-- 🗂 Playlist support  
-- 📀 Dynamic content loading  
+- 🗂 Playlist support with mood-based albums  
+- 📀 Dynamic JSON-driven content  
 - 🕶 Smooth transitions and animations  
 - 📱 Fully responsive (mobile + desktop)  
-- 🌓 Light/dark mode (if implemented)  
-- 🔍 Live search for songs  
-- 🔊 Volume control and progress tracking  
-- 💡 Auto-play and click-based triggering  
+- 🔍 Search and click-to-play interaction  
+- 🔊 Volume control and track progress bar  
+- ⏯ Automatically select and pause the first song  
+- 🌓 Light/dark mode support (if added)
 
 ---
 
 ## 🧰 Tech Stack
 
-- **HTML5** + **CSS3**  
-- **JavaScript (Vanilla)**  
-- [Howler.js](https://howlerjs.com/) for audio (if used)  
+- **HTML5**, **CSS3**, **JavaScript (Vanilla)**  
+- [Howler.js](https://howlerjs.com/) for audio playback  
 - **FontAwesome** for icons  
-- **Flexbox & Media Queries** for responsiveness  
+- **Flexbox + Media Queries** for layout responsiveness  
 
 ---
 
@@ -52,29 +51,6 @@ Watch the app in action:
 To run locally:
 
 ```bash
-git clone https://github.com/your-username/streamify.git
-cd streamify
+git clone https://github.com/m-hasaam/Spotify-Full-Feature-Clone.git
+cd Spotify-Full-Feature-Clone
 open index.html
-```
-
----
-
-## 📸 Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![Desktop](https://your-screenshot-link.com/desktop.png) | ![Mobile](https://your-screenshot-link.com/mobile.png) |
-
----
-
-## 🙏 Credits
-
-- Icons from [FontAwesome](https://fontawesome.com/)  
-- Album art & song previews from open sources  
-- Inspired by [Spotify UI](https://spotify.com)  
-
----
-
-## 📜 License
-
-MIT License © 2025 [Your Name]
