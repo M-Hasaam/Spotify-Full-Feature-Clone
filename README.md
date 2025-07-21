@@ -12,7 +12,7 @@
 
 ## 🎥 Preview Video
 
-🔗 [Watch Preview Video](https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/preview.mkv)
+🔗 [Watch Preview Video](https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assests/preview.mkv)
 
 <!-- This is a comment and will not be shown in the rendered Markdown 
 
@@ -26,14 +26,14 @@ Or upload it to YouTube and link like this:
 
 <!-- Desktop and Tablet -->
 <div align="center">
-  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Desktop.png" alt="Desktop View" width="45%" style="margin: 10px;" />
-  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Tab.png" alt="Tablet View" width="45%" style="margin: 10px;" />
+  <img src="/assests/Destop.png" alt="Desktop View" width="45%" style="margin: 10px;" />
+  <img src="/assests/Tab.png" alt="Tablet View" width="45%" style="margin: 10px;" />
 </div>
 
 <!-- Mobile Views -->
 <div align="center">
-  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Mobile.png" alt="Mobile View 1" width="30%" style="margin: 10px;" />
-  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assets/Mobile2.png" alt="Mobile View 2" width="30%" style="margin: 10px;" />
+  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assests/Mobile.png" alt="Mobile View 1" width="30%" style="margin: 10px;" />
+  <img src="https://m-hasaam.github.io/Spotify-Full-Feature-Clone/assests/Mobile2.png" alt="Mobile View 2" width="30%" style="margin: 10px;" />
 </div>
 ---
 
